@@ -11,5 +11,10 @@ max_connections=32768
     * compute node need a empty bond1 without any interface.
     * GPU configuration
 > network node 
-    * bond0 for all network, bond1 for floating.
-## openstack service
+    * bond0 for all network, bond1 for floating. 
+
+## openstack service 
+> heat engine
+```
+max_microversion = 2.15
+```
